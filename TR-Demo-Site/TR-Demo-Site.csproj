@@ -86,6 +86,12 @@
       <DependentUpon>SlowRequest.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LazyModule\LazyModule.csproj">
+      <Project>{378f1b90-f710-4fdb-b511-64e80f741a1f}</Project>
+      <Name>LazyModule</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
