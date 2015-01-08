@@ -11,7 +11,10 @@ namespace TR_Demo_Site
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.QueryString["FAST"] != null)
+            {
+                slowdiv.InnerText = "Are you fast?";
+            }
         }
     }
 }
